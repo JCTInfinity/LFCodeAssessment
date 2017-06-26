@@ -1,0 +1,13 @@
+.select-wrapper select {
+  width: 100%;
+  height: 43.75px;
+  border: 2px solid darkblue;
+  background-color: lightblue;
+  font-size: 17px; 
+}
+
+/* 	Unfortunately, that's not a complete solution. 
+	It leaves the drop-down arrow smaller and the wrong color compared to the reference. 
+	I spent my remaining time searching for a solution, but was unable to find one which 
+		didn't require replacing the arrow with an image. 
+	If there's a better way to handle that, I'm looking forward to learning it. */
